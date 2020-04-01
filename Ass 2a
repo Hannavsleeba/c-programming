@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+  char na[]="Nimisha",sc[]="Bethany St.Mary's HS";
+  int ag=16, c=10, d=85;
+  printf("Name of the student: %s\n",na);
+  printf("Age: %d\n",ag);
+  printf("School: %s\n",sc);
+  printf("marks obtained=%d",d);
+}
