@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+  int i;
+  float a[3];
+  for(i=0;i<3;i++)
+  {
+  printf("enter number %d\n",i+1);
+  scanf("%f",&a[i]);
+  }
+  if(a[0]>a[1])
+  {
+    if(a[0]>a[2])
+    printf("The largest number is %f",a[0]);
+    else
+    printf("The largest number is %f",a[2]);
+  }
+  else
+  {
+    if(a[1]>a[2])
+    printf("The largest number is %f",a[1]);
+    else
+    printf("The largest number is %f",a[2]);
+  }
+  return 0;
+}
