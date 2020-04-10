@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+  int i,al=0,nu=0,sc=0;
+  char a[20];
+  printf("enter a string \n");
+  gets(a);
+  for(i=0;a[i]!='\0';i++)
+  {
+  if(a[i]>='a'&&a[i]<='z'||a[i]>='A'&&a[i]<='Z')
+  al++;
+  else if(a[i]>='1'&&a[i]<='9')
+  nu++;
+  else
+  sc++;
+  }
+  printf("no of alphabets %d\n",al);
+  printf("no of digits %d\n",nu);
+  printf("no of special characters %d\n",sc);
+  return 0;
+}
