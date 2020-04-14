@@ -1,0 +1,27 @@
+#include<stdio.h>
+sum(int x)
+{
+  int i,j,fact,sum=0;
+  printf("factorial\n");
+  for(j=x;j>=1;j--)
+  {
+    x=x-1;
+    fact=1;
+    for(i=x;i>=1;i--)
+    { 
+      fact=fact*i;
+    }
+    printf("%d!/%d = %d \n",x+1,x+1,fact);
+    sum=sum+fact;
+  }
+  printf("sum of the series: %d\n",sum);
+  return 0;
+}
+int main()
+{
+int x;
+printf("Enter number\n");
+scanf("%d",&x);
+sum(x);
+return 0;
+}
