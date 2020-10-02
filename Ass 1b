@@ -1,7 +1,8 @@
 #include<stdio.h>
-void main()
+int main()
 {
   printf("Christy Thomas \n");
-  printf("Dept of Electronics and Communication eng \n");
+  printf("Dept of Electronics and Communication Engineering \n");
   printf("College of Engineering, Chengannur\n");
+  return 0;
 }
